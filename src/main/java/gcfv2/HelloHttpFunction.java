@@ -9,6 +9,6 @@ import com.google.cloud.functions.HttpResponse;
 public class HelloHttpFunction implements HttpFunction {
   public void service(final HttpRequest request, final HttpResponse response) throws Exception {
     final BufferedWriter writer = response.getWriter();
-    writer.write("Testing serverless hell world! from java language");
+    writer.write("CI CD function serverless hell world! from java language");
   }
 }
